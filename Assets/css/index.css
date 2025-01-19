@@ -88,10 +88,22 @@ li a.active, li a:hover {
     display: none;
 }
 
+.mode {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .mode i {
     font-size: 1.4rem;
     cursor: pointer;
     color: var(--primary-color);
+    opacity: 0;
+    animation: rightSideAni 1.5s ease forwards;
+}
+
+#google_translate_element {
+    font-size: 0.9rem;
     opacity: 0;
     animation: rightSideAni 1.5s ease forwards;
 }
