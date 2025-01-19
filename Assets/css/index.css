@@ -101,11 +101,15 @@ li a.active, li a:hover {
     opacity: 0;
     animation: rightSideAni 1.5s ease forwards;
 }
-
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Espaçamento entre o ícone e o botão de tradução */
+}
 #google_translate_element {
     font-size: 0.9rem;
-    opacity: 0;
-    animation: rightSideAni 1.5s ease forwards;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .main {
