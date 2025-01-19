@@ -11,24 +11,56 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-.google-translate-bandeiras {
+.language-selector {
+    position: relative;
+}
+
+.language-toggle {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     display: flex;
-    gap: 1rem; /* Espaçamento entre as bandeiras */
-    flex-wrap: wrap; /* Permite que as bandeiras se quebrem em várias linhas se necessário */
-    justify-content: center; /* Alinha as bandeiras no centro */
-    margin-top: 1rem; /* Adiciona uma margem superior para separar do conteúdo acima */
+    align-items: center;
+    gap: 10px;
 }
 
-.google-translate-bandeiras img {
-    width: 40px; /* Define o tamanho das bandeiras */
-    height: 40px; /* Garante que a altura seja proporcional à largura */
-    cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre as bandeiras */
-    border-radius: 4px; /* Torna as bordas das bandeiras arredondadas */
-    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+.language-toggle i {
+    font-size: 1.5rem;
 }
 
-.google-translate-bandeiras img:hover {
-    transform: scale(1.1); /* Aumenta o tamanho da bandeira ao passar o mouse */
+.flags-container {
+    display: none; /* Inicialmente, as bandeiras estão escondidas */
+    position: absolute;
+    top: 100%; /* As bandeiras vão aparecer abaixo do botão */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 5px;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+.flags-container img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.flags-container img:hover {
+    transform: scale(1.1);
+}
+
+.language-selector.active .flags-container {
+    display: flex; /* Exibe as bandeiras quando a classe 'active' for adicionada */
 }
 
 body {
