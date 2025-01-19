@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/sobre",
+      "destination": "/Assets/Pag/sobre.html"
+    },
+    {
+      "source": "/habilidades",
+      "destination": "/Assets/Pag/Habilidades.html"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/Assets/Pag/Portf%C3%B3lio.html"
+    },
+    {
+      "source": "/contato",
+      "destination": "/Assets/Pag/Contato.html"
+    }
+  ]
+}
