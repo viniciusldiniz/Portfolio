@@ -1,6 +1,4 @@
-// jscript.js
-
-// Script de Modo Escuro
+// Obtenha o elemento do toggle de modo escuro
 const darkModeToggle = document.getElementById('darkModeToggle');
 const body = document.body;
 
@@ -23,12 +21,3 @@ darkModeToggle.addEventListener('change', () => {
         localStorage.setItem('darkMode', 'disabled');
     }
 });
-
-// Script para alternar a exibição das bandeiras
-const languageToggle = document.querySelector('.language-toggle');
-const languageSelector = document.querySelector('.language-selector');
-
-languageToggle.addEventListener('click', () => {
-    languageSelector.classList.toggle('active'); // Alterna a classe "active" para exibir/esconder as bandeiras
-});
-
