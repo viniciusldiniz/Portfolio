@@ -24,14 +24,11 @@ darkModeToggle.addEventListener('change', () => {
     }
 });
 
-// Script para traduzir
-function translateLanguage(language) {
-    var googleTranslateElement = new google.translate.TranslateElement({
-        pageLanguage: 'pt',
-        includedLanguages: 'en,es,fr,de',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-    
-    // A tradução será ativada conforme a bandeira clicada
-    googleTranslateElement.showLanguage(language);
-}
+// Script para alternar a exibição das bandeiras
+const languageToggle = document.querySelector('.language-toggle');
+const languageSelector = document.querySelector('.language-selector');
+
+languageToggle.addEventListener('click', () => {
+    languageSelector.classList.toggle('active'); // Alterna a classe "active" para exibir/esconder as bandeiras
+});
+
