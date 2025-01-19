@@ -11,6 +11,25 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+.google-translate-bandeiras {
+    display: flex;
+    gap: 1rem; /* Espaçamento entre as bandeiras */
+    flex-wrap: wrap; /* Permite que as bandeiras se quebrem em várias linhas se necessário */
+    justify-content: center; /* Alinha as bandeiras no centro */
+    margin-top: 1rem; /* Adiciona uma margem superior para separar do conteúdo acima */
+}
+
+.google-translate-bandeiras img {
+    width: 40px; /* Define o tamanho das bandeiras */
+    height: 40px; /* Garante que a altura seja proporcional à largura */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre as bandeiras */
+    border-radius: 4px; /* Torna as bordas das bandeiras arredondadas */
+    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+.google-translate-bandeiras img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da bandeira ao passar o mouse */
+}
 
 body {
     font-family: 'Outfit', sans-serif;
