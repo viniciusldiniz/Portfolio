@@ -1,20 +1,24 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/sobre",
-      "destination": "/Assets/Pag/sobre.html"
+      "destination": "/Assets/Pag/sobre.html",
+      "permanent": true
     },
     {
       "source": "/habilidades",
-      "destination": "/Assets/Pag/Habilidades.html"
+      "destination": "/Assets/Pag/Habilidades.html",
+      "permanent": true
     },
     {
       "source": "/portfolio",
-      "destination": "/Assets/Pag/Portf%C3%B3lio.html"
+      "destination": "/Assets/Pag/Portfólio.html",
+      "permanent": true
     },
     {
       "source": "/contato",
-      "destination": "/Assets/Pag/Contato.html"
+      "destination": "/Assets/Pag/Contato.html",
+      "permanent": true
     }
   ]
 }
