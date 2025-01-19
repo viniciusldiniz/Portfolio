@@ -1,0 +1,354 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+
+/* Definindo variáveis CSS para cores */
+:root {
+    --primary-color: #8e2634;  /* Cor primária do site */
+    --primary-dark: #1F252E;    /* Cor de fundo escura do site */
+}
+
+/* Reset de margens, paddings e comportamento de rolagem */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;  /* Rolagem suave ao clicar em links âncoras */
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Outfit', sans-serif;  /* Define a fonte padrão */
+    background: #ffffff;               /* Cor de fundo branca */
+    height: 100vh; /* Define a altura da página como 100% da altura da janela */
+    color: #000;                       /* Cor do texto preta */
+    display: flex;                     /* Usado para centralizar o conteúdo */
+    justify-content: center;           /* Centraliza o conteúdo horizontalmente */
+}
+
+
+
+/* Estilo do header fixo na parte superior */
+header {
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1); /* Sombra leve abaixo do header */
+    background: #fff;  /* Fundo branco para o header */
+    position: sticky;  /* Faz o header ficar fixo no topo */
+    top: 0;     /* Topo da tela */
+    z-index: 1;  /* Garante que o header fique acima de outros elementos */
+}
+/* Contêiner principal da página */
+.container {
+    width: 100%; /* Garante que o container ocupe toda a largura da tela */
+    max-width: 1200px; /* Ou qualquer valor máximo que desejar */
+    margin: 0 auto; /* Garante que o conteúdo seja centralizado */
+    padding: 0 15px; /* Se necessário, ajuste o padding */
+}
+/* Estilo do cabeçalho da página */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0; /* Adiciona padding superior e inferior */
+}
+
+/* Logo */
+.logo img {
+    width: 90px; /* Tamanho da imagem do logo */
+}
+
+/* Estilo para listas */
+ul {
+    display: flex; /* Usando Flexbox para distribuir os itens de navegação */
+    gap: .6rem; /* Define o espaçamento entre os itens de navegação */
+    list-style-type: none; /* Remove os marcadores de lista */
+    background-color: transparent; /* Define o fundo da lista como transparente */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar o contêiner */
+}
+
+/* Estilo dos links nos itens da lista */
+li a {
+    display: inline-block; /* Exibe os links como blocos em linha */
+    padding: .3rem 1rem; /* Espaçamento interno de 0.3rem em cima e embaixo e 1rem nas laterais */
+    color: #000; /* Cor preta para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1.05rem; /* Tamanho da fonte do link */
+    font-weight: 600; /* Peso da fonte (semi-negrito) */
+    letter-spacing: .7px; /* Aumenta o espaçamento entre as letras */
+    border-radius: 36px; /* Borda arredondada nos links */
+    line-height: 2; /* Define a altura da linha como 2 */
+    transition: .3s; /* Transição suave de 0.3 segundos */
+    animation: navani .3s ease forwards; /* Animação para os links aparecerem com atraso */
+    animation-delay: calc(.15s * var(--navAni)); /* Delay na animação baseado no índice de cada link */
+}
+
+/* Estilo para links ativos ou em hover */
+li a.active, li a:hover {
+    color: var(--primary-color); /* Muda a cor para a cor primária quando ativo ou em hover */
+}
+
+/* Esconde o checkbox de menu */
+#click {
+    display: none;  /* Esconde o checkbox */
+}
+
+/* Esconde o menu inicialmente */
+.menu {
+    display: none;
+}
+
+/* Estilo do ícone de modo (dark/light) */
+.mode i {
+    font-size: 1.4rem;  /* Tamanho do ícone */
+    cursor: pointer;    /* Cursor de mãozinha ao passar o mouse */
+    color: var(--primary-color); /* Cor do ícone */
+    animation: rightSideAni 1.5s ease forwards; /* Animação para aparecer a partir da direita */
+}
+
+/* Seção de Projetos */
+.portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Colunas responsivas */
+    gap: 2rem; /* Espaçamento entre os itens */
+    padding: 2rem 0;
+}
+
+/* Estilo dos itens de projetos */
+.portfolio-item {
+    background: #2b2b2b; /* Fundo mais escuro para o cartão */
+    border-radius: 12px;  /* Bordas arredondadas */
+    overflow: hidden;     /* Garante que a imagem não ultrapasse os limites */ 
+   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra leve nos itens */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efeitos de hover */
+}
+
+/* Efeito de hover nos itens de projetos */
+.portfolio-item:hover {
+    transform: translateY(-10px); /* Levanta o item */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Aumenta a sombra no hover */
+}
+
+/* Estilo das imagens nos itens de projetos */
+.portfolio-img {
+    width: 100%; /* Imagem ocupa toda a largura */
+    height: 200px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Ajusta a imagem dentro da área */
+}
+
+/* Informações do projeto */
+.portfolio-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Título do projeto */
+.portfolio-info h3 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+/* Descrição do projeto */
+.portfolio-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Botão de ver projeto */
+.btn-view {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão */
+.btn-view:hover {
+    background-color: #5c1a23; /* Cor de fundo mais escura */
+}
+
+/* Seletor de idiomas do Google Translate */
+#google_translate_element {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Estilos para o modo escuro */
+.dark-mode {
+    background-color: var(--primary-dark); /* Cor de fundo escura */
+    color: #ffffff;                         /* Cor do texto branca */
+}
+/* Esconde o input de modo escuro */
+.mode input {
+    display: none; /* Esconde o botão de mudança para modo escuro */
+}
+/* Estilo de links e outros elementos no modo escuro */
+.dark-mode .logo a, 
+.dark-mode ul li a, 
+.dark-mode .main h3, 
+.dark-mode .main h1 {
+    color: #fff;  /* Muda a cor do texto para branca no modo escuro */
+}
+
+/* Estilo dos links no modo escuro */
+.dark-mode ul li a.active, 
+.dark-mode ul li a:hover {
+    color: var(--primary-color); /* Cor do link ativa ou ao passar o mouse */
+}
+
+/* Alterações no header no modo escuro */
+.dark-mode header {
+    box-shadow: 0 4px 17px rgb(80 80 80 / 31%); /* Sombra no header */
+    background: var(--primary-dark);  /* Fundo escuro */
+}
+
+/* Estilos para o cartão de habilidades no modo escuro */
+.dark-mode .skill-card {
+    background: #d00202; /* Fundo mais escuro para o cartão */
+    color: #fff;         /* Cor do texto branca */
+}
+
+/* Ícones dos cartões no modo escuro */
+.dark-mode .skill-card i {
+    color: var(--primary-color); /* Cor do ícone */
+}
+
+/* Responsividade para telas pequenas */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 4.4rem;
+    }
+
+    .main h3 {
+        color: #000;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 1.6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        height: auto;
+    }
+
+    header {
+        height: auto;
+    }
+
+    ul {
+        background: var(--primary-dark);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 3.4rem;
+        left: -100%;
+        z-index: 111111;
+    }
+
+    .menu {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #244D61;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+        transition: all 0.3s ease;
+    }
+
+    .dark-mode .menu {
+        color: var(--primary-color);
+    }
+
+    .dark-mode ul {
+        background: var(--primary-dark);
+    }
+
+    .mode {
+        position: absolute;
+        right: 4rem;
+    }
+
+    .images {
+        width: 100%;
+        margin: auto;
+    }
+
+    .main {
+        margin-top: 2rem;
+    }
+}
+
+
+/* Animações */
+@keyframes leftSideAni {
+    0% {
+        transform: translateX(-100px); /* Inicia a animação fora da tela à esquerda */
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        transform: translateX(0); /* Move para a posição final */
+        opacity: 1; /* Torna-se visível */
+    }
+}
+
+/* Animação para os links de navegação */
+@keyframes navani {
+    0% {
+        transform: translateY(100px); /* Inicia a animação fora da tela abaixo */
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        transform: translateY(0); /* Move para a posição final */
+        opacity: 1; /* Torna-se visível */
+    }
+}
+
+/* Animação do ícone de modo escuro */
+@keyframes rightSideAni {
+    0% {
+        transform: translateX(100px); /* Inicia a animação fora da tela à direita */
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        transform: translateX(0); /* Move para a posição final */
+        opacity: 1; /* Torna-se visível */
+    }
+}
+
+/* Animação para os títulos e textos da seção */
+@keyframes topSideAni {
+    0% {
+        transform: translateY(-100px); /* Inicia a animação fora da tela acima */
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        transform: translateY(0); /* Move para a posição final */
+        opacity: 1; /* Torna-se visível */
+    }
+}
+
+/* Animação para os links sociais */
+@keyframes SocialAni {
+    0% {
+        transform: translateY(100px); /* Inicia a animação fora da tela abaixo */
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        transform: translateY(0); /* Move para a posição final */
+        opacity: 1; /* Torna-se visível */
+    }
+}   
