@@ -51,6 +51,82 @@ header {
 .logo img {
     width: 90px;
 }
+.mode {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adiciona o espaçamento à direita do botão de modo escuro */
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0; /* Remove o espaçamento padrão entre os controles */
+}
+
+
+.LanguagePicker_control__Lg_nk {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.LanguagePicker_languageText__SUMJ_ {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.LanguagePicker_icon__KJpat {
+    margin-left: 0.5rem;
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.mantine-focus-auto:focus {
+    outline: none;
+}
+.language-picker {
+    position: relative;
+    display: inline-block;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    z-index: 1000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.language-dropdown li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background 0.2s ease;
+}
+
+.language-dropdown li:hover {
+    background: #f0f0f0;
+}
+
+.language-dropdown.hidden {
+    display: none;
+}
+
+.language-dropdown.visible {
+    display: block;
+}
 
 ul {
     display: flex;
