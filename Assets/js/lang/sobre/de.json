@@ -1,0 +1,50 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "Aboutme": {
+    "abt": "Über mich",
+
+    "education01": "Bildungshintergrund",
+
+    "education02": "Metropolitan University of the State of São Paulo - FAMEESP",
+
+    "education.duration": "Postgraduiertenstudium in Cybersicherheit 2024 — 2025",
+
+    "education.quote": "Wahres Wissen erhebt nicht den Stolz, sondern die Demut. Wie volle Ähren sich in Respekt vor der Erde neigen, die sie nährt, findet der Weise Größe in der Einfachheit.",
+
+    "unesa": "Estácio de Sá University - UNESA",
+
+    "unesa.duration": "Informationstechnologie 2017 — 2020",
+
+    "unesa.quote": "Wenig Wissen lässt Menschen stolz fühlen. Viel Wissen lässt sie demütig fühlen. So erheben sich die kornlosen Ähren mit Verachtung zum Himmel, während die vollen sich zur Erde neigen, ihrer Mutter."
+  },
+  "experience": {
+    "experience2": "Berufserfahrung",
+
+    "marinha.company": "Brasilianische Marine - Marinesoldatenkorps",
+
+    "duration": "2016 — 2024",
+
+    "position": "Marineinfanterie-Korporal",
+
+    "experience.description": "Von 2016 bis 2024 diente ich zunächst als Rekrut, Soldat und Korporal im Marineinfanteriekorps, wobei ich körperliche und mentale Herausforderungen in einer Vielzahl von Einsätzen bewältigte. Ich erwarb wertvolle Lektionen in Führung, Belastbarkeit und Kameradschaft, während ich an Trainingsübungen und realen Missionen teilnahm. Ich wurde dem Datenverarbeitungssektor (SPD) zugeteilt, wo ich an Wartung und Infrastruktur arbeitete, meine technischen Fähigkeiten verbesserte und zur operativen Effizienz der Einheit beitrug.",
+
+    "honors": "Ich wurde mit einem Ehrenbrief der Brasilianischen Marine für mein professionelles Verhalten während meines Dienstes ausgezeichnet. Außerdem erhielt ich die folgenden Auszeichnungen:",
+
+    "honor1": "Glanz der Helden des Friedens",
+    "honor2": "Friedenswächter-Medaille",
+    "honor3": "Verdienst des Friedensvorläufers",
+    "honor4": "Einsatzmedaille Solidarität COVID-19",
+    "honor5": "Polizeiverdienstmedaille 'Gesetz und Ordnung'",
+
+    "essencia_life.company": "Essência Life Apotheke",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Kapselungsarbeiter / Netzwerkadministrator",
+    "essencia_life.description": "Ich habe signifikante Fähigkeiten als Netzwerkadministrator während meiner Freizeit entwickelt und dabei praktische Erfahrungen als Kapselungsarbeiter gesammelt."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "Aboutme": {
+    "abt": "Sobre mí",
+    "education01": "Formación Académica",
+    "education02": "Universidad Metropolitana del Estado de São Paulo - FAMEESP",
+    "education.duration": "Postgrado en Ciberseguridad 2024 — 2025",
+    "education.quote": "El verdadero conocimiento no eleva el orgullo, sino la humildad. Así como las espigas llenas se inclinan con respeto hacia la tierra que las nutre, el sabio encuentra grandeza en la simplicidad.",
+    "unesa": "Universidad Estácio de Sá - UNESA",
+    "unesa.duration": "Sistemas de Información 2017 — 2020",
+    "unesa.quote": "Poco conocimiento hace que las personas se sientan orgullosas. Mucho conocimiento hace que se sientan humildes. Así, las espigas sin grano levantan con desprecio la cabeza hacia el cielo, mientras que las llenas se inclinan hacia la tierra, su madre."
+  },
+  "experience": {
+    "experience2": "Experiencia Profesional",
+    "marinha.company": "Marina de Brasil - Cuerpo de Fusileros Navales",
+    "duration": "2016 — 2024",
+    "position": "Cabo de Infantería de Marina",
+    "experience.description": "Durante los años 2016 a 2024, serví inicialmente como Recluta, Soldado y Cabo en el Cuerpo de Fusileros Navales, enfrentando desafíos físicos y mentales en una variedad de operaciones. Aprendí valiosas lecciones de liderazgo, resiliencia y camaradería mientras participaba en ejercicios de entrenamiento y misiones reales. Fui asignado al Sector de Procesamiento de Datos (SPD), donde trabajé en mantenimiento e infraestructura, mejorando mis habilidades técnicas y contribuyendo a la eficiencia operativa de la unidad.",
+    "honors": "Fui honrado con una Carta de Mérito de la Marina de Brasil por mi conducta profesional durante mi servicio. También recibí los siguientes reconocimientos:",
+    "honor1": "Esplendor de los Héroes de la Paz",
+    "honor2": "Medalla Centinela de la Paz",
+    "honor3": "Mérito del Precursor de la Paz",
+    "honor4": "Medalla de Solidaridad por COVID-19",
+    "honor5": "Medalla al Mérito Policial 'Ley y Orden'",
+    "essencia_life.company": "Farmacia de Manipulación Essência Life",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Encapsulador / Administrador de Redes",
+    "essencia_life.description": "Desarrollé habilidades significativas como administrador de redes en mi tiempo libre mientras adquiría experiencia práctica como encapsulador."
+  }
+}

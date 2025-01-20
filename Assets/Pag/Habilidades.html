@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/habilidades.css">
+    <title>Habilidades</title>
+</head>
+<body>
+    <section>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <img src="../Images/Logo/testelogo.png" width="90px">
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="../../index.html" style="--navAni:1" id="home">Início</a></li>
+                    <li><a href="sobre.html" style="--navAni:2" id="about">Sobre</a></li>
+                    <li><a href="Habilidades.html" class="active" style="--navAni:3" id="skills">Habilidades</a></li>
+                    <li><a href="Portfólio.html" style="--navAni:4" id="portfolio">Portfólio</a></li>
+                    <li><a href="Contato.html" style="--navAni:5" id="contact">Contato</a></li>
+                </ul>
+                <div class="header-controls">
+                    <label class="mode">
+                        <input type="checkbox" id="dark-mode-toggle">
+                        <i class="bx bxs-moon"></i>
+                    </label>
+                    <div class="language-picker">
+                        <button id="language-toggle">
+                            <div class="m_4081bf90 mantine-Group-root">
+                                <p class="LanguagePicker_languageText__SUMJ_" data-translate="language.pt">PT</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-chevron-down LanguagePicker_icon__KJpat">
+                                <path d="M6 9l6 6l6 -6"></path>
+                            </svg>
+                        </button>
+                        <ul id="language-dropdown" class="language-dropdown hidden">
+                            <li data-lang="pt" id="lang-pt">PT - Português</li>
+                            <li data-lang="en" id="lang-en">EN - English</li>
+                            <li data-lang="es" id="lang-es">ES - Español</li>
+                            <li data-lang="fr" id="lang-fr">FR - Français</li>
+                            <li data-lang="de" id="lang-de">DE - Deutsch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="skills-section">
+                <h1 id="skills-title">Minhas Habilidades</h1>
+                <p class="skills-description" id="skills-description">Confira abaixo as tecnologias e ferramentas com as quais trabalho:</p>
+                <div class="skills-grid">
+                    <!-- Habilidade 1 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-html5' style="color: #e34c26;"></i>
+                        <h3 id="skill-html5">HTML5</h3>
+                        <p id="skill-html5-desc">Experiência em criar estruturas web semânticas e responsivas.</p>
+                    </div>
+                    <!-- Habilidade 2 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-css3' style="color: #1572b6;"></i>
+                        <h3 id="skill-css3">CSS3</h3>
+                        <p id="skill-css3-desc">Criação de layouts atraentes com animações e designs modernos.</p>
+                    </div>
+                    <!-- Habilidade 3 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-javascript' style="color: #f7df1e;"></i>
+                        <h3 id="skill-javascript">JavaScript</h3>
+                        <p id="skill-javascript-desc">Desenvolvimento de funcionalidades dinâmicas e interatividade.</p>
+                    </div>
+                    <!-- Habilidade 4 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-react' style="color: #61dafb;"></i>
+                        <h3 id="skill-react">React.js</h3>
+                        <p id="skill-react-desc">Construção de interfaces modernas com bibliotecas avançadas.</p>
+                    </div>
+                    <!-- Habilidade 5 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-nodejs' style="color: #68a063;"></i>
+                        <h3 id="skill-nodejs">Node.js</h3>
+                        <p id="skill-nodejs-desc">Criação de APIs rápidas e escaláveis para projetos web.</p>
+                    </div>
+                    <!-- Habilidade 6 -->
+                    <div class="skill-card">
+                        <i class='bx bxl-github' style="color: #333;"></i>
+                        <h3 id="skill-github">GitHub</h3>
+                        <p id="skill-github-desc">Gerenciamento de código e colaboração em projetos.</p>
+                    </div>
+                    <!-- Habilidade 7 - Java -->
+                    <div class="skill-card">
+                        <i class='bx bxl-java' style="color: #007396;"></i>
+                        <h3 id="skill-java">Java</h3>
+                        <p id="skill-java-desc">Desenvolvimento de aplicações robustas e escaláveis.</p>
+                    </div>
+                    <!-- Habilidade 8 - Spring Boot -->
+                    <div class="skill-card">
+                        <i class='bx bxl-spring-boot' style="color: #6db33f;"></i>
+                        <h3 id="skill-springboot">Spring Boot</h3>
+                        <p id="skill-springboot-desc">Framework para criação de aplicações back-end rápidas e eficientes.</p>
+                    </div>
+                    <!-- Habilidade 9 - MySQL -->
+                    <div class="skill-card">
+                        <i class='bx bx-database' style="color: #00758f;"></i>
+                        <h3 id="skill-mysql">MySQL</h3>
+                        <p id="skill-mysql-desc">Gerenciamento de banco de dados relacionais e consultas eficientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Incluindo o script externo -->
+    <script src="../js/HabilidadesScript.js"></script>
+</body>
+
+</html>

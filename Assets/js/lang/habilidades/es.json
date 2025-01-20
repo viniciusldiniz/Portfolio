@@ -1,0 +1,32 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  
+  "habilit": {
+    "skills.title": "Mis Habilidades",
+    "skills.description": "Revisa las tecnologías y herramientas con las que trabajo a continuación.",
+    "skill.html5": "HTML5",
+    "skill.desc": "Experiencia en la creación de estructuras web semánticas y responsivas.",
+    "skill.css3": "CSS3",
+    "skill.css3.desc": "Creación de diseños atractivos con animaciones y diseños modernos.",
+    "skill.javascript": "JavaScript",
+    "skill.javascript.desc": "Desarrollo de funcionalidades dinámicas e interactividad.",
+    "skill.react": "React.js",
+    "skill.react.desc": "Construcción de interfaces modernas con bibliotecas avanzadas.",
+    "skill.nodejs": "Node.js",
+    "skill.nodejs.desc": "Creación de APIs rápidas y escalables para proyectos web.",
+    "skill.github": "GitHub",
+    "skill.github.desc": "Gestión de código y colaboración en proyectos.",
+    "skill.java": "Java",
+    "skill.java.desc": "Desarrollo de aplicaciones robustas y escalables.",
+    "skill.springboot": "Spring Boot",
+    "skill.springboot.desc": "Framework para la creación de aplicaciones back-end rápidas y eficientes.",
+    "skill.mysql": "MySQL",
+    "skill.mysqldesc": "Gestión de bases de datos relacionales y consultas eficientes."
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <title>Início</title>
+</head>
+
+<body>    
+    <section>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <img src="Assets/Images/Logo/testelogo.png" width="90px">
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class="bx bx-menu"></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="index.html" id="home" class="active" style="--navAni:1">Início</a></li>
+                    <li><a href="Assets/Pag/sobre.html" id="about" style="--navAni:2">Sobre</a></li>
+                    <li><a href="Assets/Pag/Habilidades.html" id="skills" style="--navAni:3">Habilidades</a></li>
+                    <li><a href="Assets/Pag/Portfólio.html" id="portfolio" style="--navAni:4">Portfólio</a></li>
+                    <li><a href="Assets/Pag/Contato.html" id="contact" style="--navAni:5">Contato</a></li>
+                </ul>
+               
+                <div class="header-controls">
+                    <label class="mode">
+                        <input type="checkbox" id="dark-mode-toggle">
+                        <i class="bx bxs-moon"></i>
+                    </label>
+                    <div class="language-picker">
+                        <button id="language-toggle">
+                            <div class="m_4081bf90 mantine-Group-root">
+                                <p class="LanguagePicker_languageText__SUMJ_">PT</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-chevron-down LanguagePicker_icon__KJpat">
+                                <path d="M6 9l6 6l6 -6"></path>
+                            </svg>
+                        </button>
+                        <ul id="language-dropdown" class="language-dropdown hidden">
+                            <li data-lang="pt">PT - Português</li>
+                            <li data-lang="en">EN - English</li>
+                            <li data-lang="es">ES - Español</li>
+                            <li data-lang="fr">FR - Français</li>
+                            <li data-lang="de">DE - Deutsch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="main">
+                <div class="detail">
+                    <!-- Adicionei os IDs 'hello', 'name' e 'description' para que o JS possa manipulá-los -->
+                    <h3 id="hello">OI, EU SOU</h3>
+                    <h1 id="name"><span id="name-part" style="color:#8e2634;">Vinicius</span> Diniz</h1>
+                    <p class="text2" id="description">Sou graduado em Sistemas de Informação e estou finalizando uma pós-graduação em
+                        Cibersegurança, tenho experiência em infraestrutura de TI. Atualmente, estou me aprofundando em
+                        Desenvolvimento Back-End com Java e Spring Boot, após ter concluído o curso pelo SENAI Maracanã,
+                        enquanto aprimoro minhas habilidades em Front-End, com foco no framework Angular, entre outros.
+                    </p>
+                    <br>
+                    <p class="text2" id="description2"> Tenho uma forte paixão por jogos, o que me leva a adotar uma abordagem detalhada e
+                        criativa no desenvolvimento de software. Estou sempre em busca de novos desafios que me permitam
+                        expandir meu conhecimento e contribuir para projetos inovadores.</p>
+                    <br>
+                    <p class="text2" id="description3"> Ex-Militar Fuzileiro Naval, desenvolvi competências em liderança, resiliência e
+                        trabalho em equipe, aplicadas no ambiente profissional para enfrentar desafios e colaborar de
+                        forma eficaz em equipes de alta performance.</p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/viniciuslessadiniz" style="--socialAni:1"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/web_devs__/" style="--socialAni:2"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/viniciusldiniz" style="--socialAni:3"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="Assets/Images/teste.png" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incluindo o script externo -->
+    <script src="Assets/js/IndexScript.js"></script>
+    <script type="text/javascript">
+    </script>
+   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
+

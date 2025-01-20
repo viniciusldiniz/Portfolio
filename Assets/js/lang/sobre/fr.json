@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos de moi",
+    "skills": "Compétences",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "Aboutme": {
+    "abt": "À propos de moi",
+    "education01": "Formation académique",
+    "education02": "Université Métropolitaine de l'État de São Paulo - FAMEESP",
+    "education.duration": "Postgraduate en Cybersécurité 2024 — 2025",
+    "education.quote": "La véritable connaissance n'élève pas l'orgueil, mais l'humilité. Tout comme les épis pleins s'inclinent en respect envers la terre qui les nourrit, le sage trouve la grandeur dans la simplicité.",
+    "unesa": "Université Estácio de Sá - UNESA",
+    "unesa.duration": "Systèmes d'information 2017 — 2020",
+    "unesa.quote": "Un peu de savoir rend les gens fiers. Beaucoup de savoir les rend humbles. Ainsi, les épis vides lèvent la tête avec arrogance vers le ciel, tandis que les pleins s'inclinent vers la terre, leur mère."
+  },
+  "experience": {
+    "experience2": "Expérience professionnelle",
+    "marinha.company": "Marine Brésilienne - Corps des Fusiliers Marins",
+    "duration": "2016 — 2024",
+    "position": "Caporal d'Infanterie de Marine",
+    "experience.description": "De 2016 à 2024, j'ai d'abord servi comme Recrue, Soldat et Caporal au sein du Corps des Fusiliers Marins, affrontant des défis physiques et mentaux dans une variété d'opérations. J'ai acquis des leçons précieuses en leadership, résilience et esprit de camaraderie en participant à des exercices d'entraînement et à des missions réelles. J'ai été affecté au Secteur de Traitement des Données (SPD), où j'ai travaillé sur la maintenance et l'infrastructure, développant mes compétences techniques et contribuant à l'efficacité opérationnelle de l'unité.",
+    "honors": "J'ai été honoré d'une Lettre de Mérite de la Marine Brésilienne pour ma conduite professionnelle pendant mon service. J'ai également reçu les distinctions suivantes:",
+    "honor1": "Splendeur des Héros de la Paix",
+    "honor2": "Médaille Sentinelle de la Paix",
+    "honor3": "Mérite du Précurseur de la Paix",
+    "honor4": "Médaille de la Solidarité COVID-19",
+    "honor5": "Médaille du Mérite Policer 'Loi et Ordre'",
+    "essencia_life.company": "Pharmacie Essência Life",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Encapsuleur / Administrateur Réseau",
+    "essencia_life.description": "J'ai développé des compétences significatives en administration réseau durant mon temps libre, tout en acquérant une expérience pratique en tant qu'encapsuleur."
+  }
+}

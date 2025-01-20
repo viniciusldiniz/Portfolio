@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "Aboutme": {
+    "abt": "About Me",
+    "education01": "Educational Background",
+    "education02": "Metropolitan University of the State of São Paulo - FAMEESP",
+    "education.duration": "Postgraduate in Cybersecurity 2024 — 2025",
+    "education.quote": "True knowledge does not elevate pride but humility. Just as full ears bow in respect to the soil that nourishes them, the wise find greatness in simplicity.",
+    "unesa": "Estácio de Sá University - UNESA",
+    "unesa.duration": "Information Systems 2017 — 2020",
+    "unesa.quote": "Little knowledge makes people feel proud. Much knowledge makes them feel humble. Thus, the grainless ears arrogantly lift their heads to the sky, while the full ones bow to the earth, their mother."
+  },
+  "experience": {
+    "experience2": "Professional Experience",
+    "marinha.company": "Brazilian Navy - Marine Corps",
+    "duration": "2016 — 2024",
+    "position": "Marine Infantry Corporal",
+   "experience.description": "From 2016 to 2024, I initially served as a Recruit, Soldier, and Corporal in the Marine Corps, facing physical and mental challenges in a variety of operations. I gained valuable lessons in leadership, resilience, and camaraderie while participating in training exercises and real missions. I was assigned to the Data Processing Sector (SPD), where I worked on maintenance and infrastructure, enhancing my technical skills and contributing to the operational efficiency of the unit.",
+    "honors": "I was honored with a Letter of Merit from the Brazilian Navy for my professional conduct during my service. I also received the following awards:",
+    "honor1": "Splendor of Peace Heroes",
+    "honor2": "Sentinel of Peace Medal",
+    "honor3": "Merit of the Peace Precursor",
+    "honor4": "COVID-19 Solidarity Campaign Medal",
+    "honor5": "Police Merit Medal 'Law and Order'",
+    "essencia_life.company": "Essência Life Pharmacy",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Capsule Worker / Network Administrator",
+    "essencia_life.description": "I developed significant skills as a network administrator in my free time while gaining hands-on experience as a capsule worker."
+  }
+}
