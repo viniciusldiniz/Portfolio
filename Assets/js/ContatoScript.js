@@ -40,7 +40,7 @@ const languageDropdown = document.getElementById('language-dropdown');
 const languageText = document.querySelector('.LanguagePicker_languageText__SUMJ_');
 
 // Carregar o idioma do localStorage, se disponível
-const savedLanguage = localStorage.getItem('language') || 'pt-br'; // Se não houver um idioma salvo, usa 'pt-br' como padrão
+const savedLanguage = localStorage.getItem('language') || 'pt'; // Se não houver um idioma salvo, usa 'pt-br' como padrão
 loadTranslation(savedLanguage);
 
 // Atualiza o texto do botão de idioma para o idioma salvo
