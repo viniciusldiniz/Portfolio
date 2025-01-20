@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/contato.css">
     <title id="contact-title">Contato</title>
 </head>
-
-<body>
+ 
+<body class="dark-mode">
     <section>
         <header class="container">
             <div class="page-header">
@@ -92,6 +92,12 @@
     </section>
 
     <script src="../js/ContatoScript.js"></script>
+    <script>
+        // Aplica a classe 'dark-mode' ao carregar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
 
 </body>
 
