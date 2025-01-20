@@ -13,6 +13,7 @@
 <body>
     <section>
         <header class="container">
+            <div id="google_translate_element"></div> <!-- Seletor de idiomas -->
             <div class="page-header">
                 <div class="logo">
                     <img src="Assets/Images/Logo/testelogo.png" width="90px">
@@ -30,13 +31,50 @@
                     <li><a href="Assets/Pag/Portfólio.html" style="--navAni:4">Portfólio</a></li>
                     <li><a href="Assets/Pag/Contato.html" style="--navAni:5">Contato</a></li>
                 </ul>
-                <div id="google_translate_element"></div>
                 <div class="header-controls">
                     <label class="mode">
                         <input type="checkbox" id="darkModeToggle">
                         <i class="bx bxs-moon"></i>
                     </label>
-                  
+                <!-- Botão de seleção de idioma -->
+    <div class="language-picker">
+        <button
+            class="mantine-focus-auto LanguagePicker_control__Lg_nk m_87cf2631 mantine-UnstyledButton-root"
+            type="button"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-controls="language-dropdown"
+            id="language-toggle"
+        >
+            <div class="m_4081bf90 mantine-Group-root">
+                <p class="mantine-focus-auto LanguagePicker_languageText__SUMJ_ m_b6d8b162 mantine-Text-root">PT</p>
+            </div>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="tabler-icon tabler-icon-chevron-down LanguagePicker_icon__KJpat"
+            >
+                <path d="M6 9l6 6l6 -6"></path>
+            </svg>
+        </button>
+
+        <!-- Dropdown de línguas -->
+        <ul id="language-dropdown" class="language-dropdown hidden">
+            <li data-lang="pt">PT - Português</li>
+            <li data-lang="en">EN - English</li>
+            <li data-lang="es">ES - Español</li>
+            <li data-lang="fr">FR - Français</li>
+            <li data-lang="de">DE - Deutsch</li>
+        </ul>
+    </div>
+</div>
                 </div>
             </div>
         </header>
