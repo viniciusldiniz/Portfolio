@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/sobre.css">
     <title>Sobre Mim</title>
 </head>
-<body>
+<body class="dark-mode">
     <section>
         <header class="container">
             <div class="page-header">
@@ -118,6 +118,12 @@
     <!-- Incluindo o script externo -->
     <script src="../js/SobreScript.js"></script>
        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+       <script>
+        // Aplica a classe 'dark-mode' ao carregar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('dark-mode');
+        });
+    </script>
 </body>
 
 </html>
