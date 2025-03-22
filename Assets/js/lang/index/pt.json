@@ -6,31 +6,16 @@
     "portfolio": "Portfólio",
     "contact": "Contato"
   },
-  "Aboutme": {
-    "abt": "Sobre Mim",
-    "education01": "Formação Educacional",
-    "education02": "Faculdade Metropolitana do Estado de São Paulo - FAMEESP",
-    "education.duration": "Pós-Graduação em Cibersegurança 2024 — 2025",
-    "education.quote": "O verdadeiro conhecimento não eleva o orgulho, mas a humildade. Assim como as espigas cheias inclinam-se em respeito à terra que as nutre, o sábio encontra grandeza na simplicidade.",
-    "unesa": "Universidade Estácio de Sá - UNESA",
-    "unesa.duration": "Sistemas de Informação 2017 — 2020",
-    "unesa.quote": "Pouco conhecimento faz com que as pessoas se sintam orgulhosas. Muito conhecimento faz com que se sintam humildes. Assim, as espigas sem grãos erguem desdenhosamente a cabeça para o céu, enquanto as cheias se inclinam para a terra, sua mãe."
+  "greeting": {
+    "hello": "Olá, Eu sou",
+    "name": "Vinicius Diniz",
+    "description": "Atuei como Fuzileiro Naval por mais de sete anos, período no qual fui agraciado com cinco medalhas e uma certificação de Honra ao Mérito, refletindo meu compromisso e excelência no serviço. ",
+    "description2":"Sou graduado em Sistemas de Informação e estou finalizando uma pós-graduação em Cibersegurança, tenho experiência em infraestrutura de TI. Atualmente, estou me aprofundando em Desenvolvimento Back-End com Java e Spring Boot, após ter concluído o curso pelo SENAI Maracanã, enquanto aprimoro minhas habilidades em Front-End, com foco no framework Angular, entre outros.",
+    "description3": " Sou apaixonado por jogos, o que me leva a adotar uma abordagem detalhada e criativa no desenvolvimento de software. Estou sempre em busca de novos desafios que me permitam expandir meu conhecimento e contribuir para projetos inovadores."
   },
-  "experience": {
-    "experience2": "Experiência Profissional",
-    "marinha.company": "Marinha do Brasil - Corpo de Fuzileiros Navais",
-    "duration": "2016 — 2024",
-    "position": "Cabo do Quadro de Infantaria Fuzileiro Naval",
-    "experience.description": "Durante os anos de 2016 a 2024, servi inicialmente como Recruta, Soldado e Cabo Fuzileiro Naval, enfrentando desafios físicos e mentais em uma variedade de operações. Aprendi lições valiosas de liderança, resiliência e camaradagem, enquanto participava de exercícios de treinamento e missões reais. Fui destacado para o Setor de Processamento de Dados (SPD), onde trabalhei com manutenção e infraestrutura, aprimorando minhas habilidades técnicas e contribuindo para a eficiência operacional da unidade.",
-    "honors": "Fui honrado com uma Carta de Honra ao Mérito da Marinha do Brasil por minha conduta profissional durante meu serviço. Também recebi as seguintes condecorações:",
-    "honor1": "Esplendor dos Heróis da Paz",
-    "honor2": "Medalha Sentinela da Paz",
-    "honor3": "Mérito do Precursor da Paz",
-    "honor4": "Medalha Operação COVID-19",
-    "honor5": "Medalha do Mérito Policial",
-    "essencia_life.company": "Essência Life Farmácia de Manipulação",
-    "experience.essencia_life.duration": "2015 — 2016",
-    "essencia_life.position": "Encapsulador / Administrador de Redes",
-    "essencia_life.description": "Desenvolvi habilidades significativas como administrador de redes durante meu tempo livre, enquanto adquiria experiência prática como encapsulador."
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
+    "instagram": "https://www.instagram.com/web_devs__/",
+    "github": "https://github.com/viniciusldiniz"
   }
 }
