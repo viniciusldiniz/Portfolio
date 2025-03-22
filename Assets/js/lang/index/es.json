@@ -1,24 +1,21 @@
 {
-    "header": {
-      "home": "Inicio",
-      "about": "Sobre mí",
-      "skills": "Habilidades",
-      "portfolio": "Portafolio",
-      "contact": "Contacto"
-    },
-    "greeting": {
-      "hello": "HOLA, SOY",
-      "name": "Vinicius Diniz",
-      "description": "Soy graduado en Sistemas de Información y actualmente estoy terminando una maestría en Ciberseguridad. Tengo experiencia en infraestructura de TI. Actualmente, me estoy especializando en Desarrollo Back-End con Java y Spring Boot, después de haber completado el curso en SENAI Maracanã, mientras mejoro mis habilidades en Front-End con el framework Angular, entre otros.",
-      
-      "description2":"Tengo una gran pasión por los videojuegos, lo que me lleva a adoptar un enfoque detallado y creativo en el desarrollo de software. Siempre estoy buscando nuevos desafíos que me permitan expandir mis conocimientos y contribuir a proyectos innovadores.", 
-      
-      "description3":"Ex-militar en la Infantería de Marina, he desarrollado habilidades en liderazgo, resiliencia y trabajo en equipo, aplicadas en el entorno profesional para enfrentar desafíos y colaborar eficazmente en equipos de alto rendimiento."
-    },
-    "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
-      "instagram": "https://www.instagram.com/web_devs__/",
-      "github": "https://github.com/viniciusldiniz"
-    }
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "greeting": {
+    "hello": "Hola, Soy",
+    "name": "Vinicius Diniz",
+    "description": "Serví como Fusilero Naval durante más de siete años, período en el cual fui galardonado con cinco medallas y un certificado de Honor al Mérito, reflejando mi compromiso y excelencia en el servicio.",
+    "description2": "Soy graduado en Sistemas de Información y actualmente estoy finalizando una especialización en Ciberseguridad. Tengo experiencia en infraestructura de TI. Actualmente, me estoy especializando en Desarrollo Back-End con Java y Spring Boot, después de completar un curso en el SENAI Maracanã, mientras mejoro mis habilidades en Front-End, con un enfoque en el framework Angular, entre otros.",
+    "description3": "Soy un apasionado de los videojuegos, lo que me lleva a adoptar un enfoque detallado y creativo en el desarrollo de software. Siempre estoy en busca de nuevos desafíos que me permitan expandir mis conocimientos y contribuir a proyectos innovadores."
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
+    "instagram": "https://www.instagram.com/web_devs__/",
+    "github": "https://github.com/viniciusldiniz"
   }
-  
+}
