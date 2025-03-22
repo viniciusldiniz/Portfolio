@@ -1,0 +1,40 @@
+{
+  "header": {
+    "home": "Início",
+    "about":  "Sobre Mim",
+    "skills": "Habilidades",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  },
+  "portfolio": {
+    "portfoliotitle": "Portfólio",
+    "myprojects": "Meus Projetos",
+    "projectsdescription": "Confira abaixo alguns dos meus projetos realizados em diversas tecnologias.",
+    "projects": [
+      {
+        "title": "Css Dio.me",
+        "desc": "Recriação e aprimoramento de um projeto prático de desenvolvimento web. <br> Tecnologias utilizadas: HTML, CSS, JavaScript.",
+        "link": "https://github.com/viniciusldiniz/trilha-css-desafio-01",
+        "viewProject": "Ver o projeto"
+      },
+      {
+        "title": "Página Google Glass",
+        "desc": "Projeto desenvolvido durante o curso em vídeo do professor Gustavo Guanabara. <br> Tecnologias utilizadas: HTML, CSS, JavaScript.",
+        "link": "https://github.com/viniciusldiniz/Project--HTML",
+        "viewProject": "Ver o projeto"
+      },
+      {
+        "title": "Recriação do Wikipedia",
+        "desc": "Um desafio criado pela Dio.me, para recriar um site aplicando os conhecimentos adquiridos sobre semântica e acessibilidade. <br> Tecnologias utilizadas: HTML, CSS, JavaScript.",
+        "link": "https://link-do-projeto.com",
+        "viewProject": "Ver o projeto"
+      },
+      {
+        "title": "Desafio de Projeto CSS",
+        "desc": "Reproduzir a lista do YouTube utilizando Grid Layout em CSS. <br> Tecnologias utilizadas: HTML, CSS.",
+        "link": "https://github.com/viniciusldiniz/Project--HTML",
+        "viewProject": "Ver o projeto"
+      }
+    ]
+  }
+}

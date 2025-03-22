@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À Propos de Moi",
+    "skills": "Compétences",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "Aboutme": {
+    "abt": "À Propos de Moi",
+    "education01": "Formation Éducative",
+    "education02": "Faculté Métropolitaine de l'État de São Paulo - FAMEESP",
+    "education.duration": "Post-Graduation en Cybersécurité 2024 — 2025",
+    "education.quote": "La détermination et la quête constante de connaissances sont les piliers de la réussite",
+    "unesa": "Université Estácio de Sá - UNESA",
+    "unesa.duration": "Systèmes d'Information 2017 — 2020",
+    "unesa.quote": "Investir dans la connaissance rapporte toujours les meilleurs intérêts"
+  },
+  "experience": {
+    "experience2": "Expérience Professionnelle",
+    "marinha.company": "Marine du Brésil - Corps des Fusiliers Marins",
+    "duration": "2016 — 2024",
+    "position": "Caporal du Corps d'Infanterie de Marine",
+    "experience.description": "De 2016 à 2024, j'ai appris des leçons précieuses en leadership, résilience et camaraderie, en participant à des exercices d'entraînement et à des missions réelles. J'ai été affecté au Service de Traitement des Données (SPD), où j'ai travaillé sur la maintenance et l'infrastructure, améliorant ainsi mes compétences techniques et contribuant à l'efficacité opérationnelle de l'unité.",
+    "honors": "J'ai été honoré d'une Lettre de Mérite de la Marine du Brésil pour ma conduite professionnelle durant mon service. J'ai également reçu les distinctions suivantes :",
+    "honor1": "Splendeur des Héros de la Paix",
+    "honor2": "Médaille Sentinelle de la Paix",
+    "honor3": "Mérite du Précurseur de la Paix",
+    "honor4": "Médaille Opération COVID-19",
+    "honor5": "Médaille du Mérite Policier",
+    "essencia_life.company": "Essência Life Pharmacie de Préparation",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Encapsuleur / Administrateur Réseau",
+    "essencia_life.description": "J'ai développé des compétences significatives en tant qu'administrateur réseau pendant mon temps libre, tout en acquérant une expérience pratique en tant qu'encapsuleur."
+  }
+}

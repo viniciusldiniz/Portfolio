@@ -1,0 +1,16 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "contacthead": "Ponerse en contacto",
+    "contactDescription": "Si deseas ponerte en contacto conmigo, utiliza la información de abajo.",
+    "whatsapp": "Whatsapp",
+    "email": "Correo electrónico",
+    "cv": "Currículum vitae"
+  }
+}

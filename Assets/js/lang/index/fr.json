@@ -1,0 +1,23 @@
+{
+  "header": {
+      "home": "Accueil",
+      "about": "À propos de moi",
+      "skills": "Compétences",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "greeting": {
+      "hello": "HOLA, SOY",
+      "name": "Vinicius Diniz",
+      "description": "Je suis diplômé en systèmes d'information et je termine actuellement un master en cybersécurité. J'ai de l'expérience en infrastructure informatique. Actuellement, je me spécialise dans le développement back-end avec Java et Spring Boot, après avoir terminé un cours au SENAI Maracanã, tout en améliorant mes compétences en front-end avec le framework Angular, entre autres. ",
+      "description2":"J'ai une forte passion pour les jeux vidéo, ce qui m'amène à adopter une approche détaillée et créative dans le développement logiciel. Je suis toujours à la recherche de nouveaux défis qui me permettent d'élargir mes connaissances et de contribuer à des projets innovants.",
+      "description3": " Ancien militaire des fusiliers marins, j'ai développé des compétences en leadership, résilience et travail en équipe, appliquées dans le milieu professionnel pour relever des défis et collaborer efficacement au sein d'équipes performantes."
+    },
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
+      "instagram": "https://www.instagram.com/web_devs__/",
+      "github": "https://github.com/viniciusldiniz"
+    }
+  
+  }
+  

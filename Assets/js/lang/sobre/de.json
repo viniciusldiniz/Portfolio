@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "Aboutme": {
+    "abt": "Über Mich",
+    "education01": "Bildungsweg",
+    "education02": "Metropolitanische Hochschule des Bundesstaates São Paulo - FAMEESP",
+    "education.duration": "Postgraduiertenstudium in Cybersicherheit 2024 — 2025",
+    "education.quote": "Entschlossenheit und der ständige Drang nach Wissen sind die Säulen des Erfolgs",
+    "unesa": "Universität Estácio de Sá - UNESA",
+    "unesa.duration": "Informationssysteme 2017 — 2020",
+    "unesa.quote": "In Wissen zu investieren bringt immer die besten Erträge"
+  },
+  "experience": {
+    "experience2": "Berufserfahrung",
+    "marinha.company": "Brasilianische Marine - Marineinfanteriekorps",
+    "duration": "2016 — 2024",
+    "position": "Korporal des Marineinfanteriekorps",
+    "experience.description": "Von 2016 bis 2024 lernte ich wertvolle Lektionen in Führung, Resilienz und Kameradschaft, während ich an Trainingsübungen und realen Missionen teilnahm. Ich wurde dem Sektor für Datenverarbeitung (SPD) zugewiesen, wo ich in Wartung und Infrastruktur arbeitete, meine technischen Fähigkeiten verbesserte und zur betrieblichen Effizienz der Einheit beitrug.",
+    "honors": "Ich wurde mit einem Ehrenbrief der brasilianischen Marine für mein professionelles Verhalten während meines Dienstes ausgezeichnet. Außerdem erhielt ich folgende Auszeichnungen:",
+    "honor1": "Glanz der Helden des Friedens",
+    "honor2": "Wächter des Friedens-Medaille",
+    "honor3": "Verdienstorden des Friedensstifters",
+    "honor4": "COVID-19-Einsatzmedaille",
+    "honor5": "Polizei-Verdienstmedaille",
+    "essencia_life.company": "Essência Life Apotheke für Magistralrezepturen",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Kapselhersteller / Netzwerkadministrator",
+    "essencia_life.description": "Ich entwickelte bedeutende Fähigkeiten als Netzwerkadministrator in meiner Freizeit, während ich praktische Erfahrungen als Kapselhersteller sammelte."
+  }
+}

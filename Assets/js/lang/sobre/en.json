@@ -1,0 +1,36 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "Aboutme": {
+    "abt": "About Me",
+    "education01": "Educational Background",
+    "education02": "Metropolitan College of São Paulo State - FAMEESP",
+    "education.duration": "Postgraduate in Cybersecurity 2024 — 2025",
+    "education.quote": "Determination and the constant pursuit of knowledge are the pillars of success",
+    "unesa": "Estácio de Sá University - UNESA",
+    "unesa.duration": "Information Systems 2017 — 2020",
+    "unesa.quote": "Investing in knowledge always yields the best returns"
+  },
+  "experience": {
+    "experience2": "Professional Experience",
+    "marinha.company": "Brazilian Navy - Marine Corps",
+    "duration": "2016 — 2024",
+    "position": "Corporal of the Marine Infantry Corps",
+    "experience.description": "From 2016 to 2024, I learned valuable lessons in leadership, resilience, and camaraderie while participating in training exercises and real missions. I was assigned to the Data Processing Sector (SPD), where I worked with maintenance and infrastructure, improving my technical skills and contributing to the unit's operational efficiency.",
+    "honors": "I was honored with a Letter of Merit from the Brazilian Navy for my professional conduct during my service. I also received the following decorations:",
+    "honor1": "Splendor of the Heroes of Peace",
+    "honor2": "Sentinel of Peace Medal",
+    "honor3": "Precursor of Peace Merit",
+    "honor4": "COVID-19 Operation Medal",
+    "honor5": "Police Merit Medal",
+    "essencia_life.company": "Essência Life Compounding Pharmacy",
+    "experience.essencia_life.duration": "2015 — 2016",
+    "essencia_life.position": "Encapsulator / Network Administrator",
+    "essencia_life.description": "I developed significant skills as a network administrator in my free time while gaining hands-on experience as an encapsulator."
+  }
+}

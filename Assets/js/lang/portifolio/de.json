@@ -1,0 +1,40 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "portfolio": {
+    "portfoliotitle": "Portfolio",
+    "myprojects": "Meine Projekte",
+    "projectsdescription": "Entdecken Sie unten einige meiner Projekte, die mit verschiedenen Technologien entwickelt wurden.",
+    "projects": [
+      {
+        "title": "Css Dio.me",
+        "desc": "Wiederherstellung und Verbesserung eines praktischen Webentwicklungsprojekts. <br> Verwendete Technologien: HTML, CSS, JavaScript.",
+        "link": "https://github.com/viniciusldiniz/trilha-css-desafio-01",
+        "viewProject": "Projekt anzeigen"
+      },
+      {
+        "title": "Google Glass Seite",
+        "desc": "Projekt entwickelt während des Video-Kurses von Professor Gustavo Guanabara. <br> Verwendete Technologien: HTML, CSS, JavaScript.",
+        "link": "https://github.com/viniciusldiniz/Project--HTML",
+        "viewProject": "Projekt anzeigen"
+      },
+      {
+        "title": "Wikipedia Rekreation",
+        "desc": "Eine Herausforderung, die von Dio.me erstellt wurde, um eine Website zu rekonstruieren, die das erworbene Wissen über Semantik und Zugänglichkeit anwendet. <br> Verwendete Technologien: HTML, CSS, JavaScript.",
+        "link": "https://link-do-projeto.com",
+        "viewProject": "Projekt anzeigen"
+      },
+      {
+        "title": "CSS-Projekt Herausforderung",
+        "desc": "Die YouTube-Liste mit Grid Layout in CSS reproduzieren. <br> Verwendete Technologien: HTML, CSS.",
+        "link": "https://github.com/viniciusldiniz/Project--HTML",
+        "viewProject": "Projekt anzeigen"
+      }
+    ]
+  }
+}
