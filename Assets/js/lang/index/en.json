@@ -1,23 +1,21 @@
 {
-    "header": {
-      "home": "Home",
-      "about": "About me",
-      "skills": "Skills",
-      "portfolio": "Portfolio",
-      "contact": "Contact"
-    },
-    "greeting": {
-      "hello": "HELLO, I AM",
-      "name": "Vinicius Diniz",
-      "description": "I have a degree in Information Systems and am currently finishing a post-graduate degree in Cybersecurity. I have experience in IT infrastructure. Currently, I am focusing on Back-End Development with Java and Spring Boot, after completing a course at SENAI Maracanã, while improving my Front-End skills with a focus on the Angular framework, among others. ",
-      "description2":" I have a strong passion for games, which leads me to adopt a detailed and creative approach to software development. I am always looking for new challenges that allow me to expand my knowledge and contribute to innovative projects. ",
-      "description3": "Former Naval Infantry, I developed leadership, resilience, and teamwork skills, applied in the professional environment to face challenges and collaborate effectively in high-performance teams."
-    },
-    "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
-      "instagram": "https://www.instagram.com/web_devs__/",
-      "github": "https://github.com/viniciusldiniz"
-    }
-
-
+  "header": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "greeting": {
+    "hello": "Hello, I am",
+    "name": "Vinicius Diniz",
+    "description": "I served as a Marine Corps Rifleman for over seven years, during which I was awarded five medals and a Certificate of Honor for Merit, reflecting my commitment and excellence in service.",
+    "description2": "I have a degree in Information Systems and I am currently finishing a postgraduate program in Cybersecurity. I have experience in IT infrastructure. Currently, I am specializing in Back-End Development with Java and Spring Boot, after completing a course at SENAI Maracanã, while improving my Front-End skills, focusing on the Angular framework, among others.",
+    "description3": "I am passionate about video games, which drives me to take a detailed and creative approach to software development. I am always looking for new challenges that allow me to expand my knowledge and contribute to innovative projects."
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
+    "instagram": "https://www.instagram.com/web_devs__/",
+    "github": "https://github.com/viniciusldiniz"
   }
+}
