@@ -1,24 +1,21 @@
 {
-    "header": {
-      "home": "Startseite",
-      "about": "Über mich",
-      "skills": "Fähigkeiten",
-      "portfolio": "Portfolio",
-      "contact": "Kontakt"
-    },
-    "greeting": {
-      "hello": "HALLO, ICH BIN",
-      "name": "Vinicius Diniz",
-      "description": "Ich habe einen Abschluss in Informationssystemen und beende gerade einen Postgraduiertenabschluss in Cybersicherheit. Ich habe Erfahrung in der IT-Infrastruktur. Momentan vertiefe ich mich in die Back-End-Entwicklung mit Java und Spring Boot, nachdem ich einen Kurs beim SENAI Maracanã abgeschlossen habe, während ich meine Front-End-Fähigkeiten mit dem Fokus auf das Angular-Framework und andere verbessere.",
-      
-       "description2":"Ich habe eine starke Leidenschaft für Spiele, was mich dazu bringt, einen detaillierten und kreativen Ansatz bei der Softwareentwicklung zu verfolgen. Ich bin immer auf der Suche nach neuen Herausforderungen, die mir ermöglichen, mein Wissen zu erweitern und zu innovativen Projekten beizutragen.",
-      
-      "description3":"Ehemaliger Militärspezialist der Marineinfanterie habe ich Führungskompetenzen, Resilienz und Teamarbeit entwickelt, die im professionellen Umfeld eingesetzt werden, um Herausforderungen zu meistern und effektiv in Hochleistungsteams zusammenzuarbeiten."
-    },
-    "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
-      "instagram": "https://www.instagram.com/web_devs__/",
-      "github": "https://github.com/viniciusldiniz"
-    }
+  "header": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "greeting": {
+    "hello": "Hallo, Ich bin",
+    "name": "Vinicius Diniz",
+    "description": "Ich diente über sieben Jahre als Marineinfanterist, während dieser Zeit wurde ich mit fünf Medaillen und einer Ehrenurkunde für Verdienste ausgezeichnet, was mein Engagement und meine Exzellenz im Dienst widerspiegelt.",
+    "description2": "Ich habe einen Abschluss in Informationssystemen und befinde mich derzeit in den letzten Zügen eines Postgraduiertenstudiums in Cybersicherheit. Ich habe Erfahrung in IT-Infrastruktur. Derzeit spezialisiere ich mich auf Back-End-Entwicklung mit Java und Spring Boot, nachdem ich einen Kurs am SENAI Maracanã abgeschlossen habe, während ich gleichzeitig meine Front-End-Fähigkeiten verbessere, mit Schwerpunkt auf dem Angular-Framework und weiteren Technologien.",
+    "description3": "Ich bin leidenschaftlich an Videospielen interessiert, was mich dazu bringt, einen detaillierten und kreativen Ansatz für die Softwareentwicklung zu verfolgen. Ich bin stets auf der Suche nach neuen Herausforderungen, die es mir ermöglichen, mein Wissen zu erweitern und zu innovativen Projekten beizutragen."
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/viniciuslessadiniz",
+    "instagram": "https://www.instagram.com/web_devs__/",
+    "github": "https://github.com/viniciusldiniz"
   }
-  
+}
